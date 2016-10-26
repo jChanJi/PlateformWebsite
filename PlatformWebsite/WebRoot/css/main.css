@@ -1,0 +1,42 @@
+.topa{
+  width:1200px;
+  height:700px;
+  overflow:hidden;
+  margin:0 auto;
+  }
+.main_banner1{
+  background:url(../img/banner_01.jpg) no-repeat center top;
+  background-size: 100% 100%;
+  }
+.slider{
+  width:1000px;
+  height:99px;
+  margin:530px 0 0 100px;
+  position:relative;
+  background:url(../img/bar_01.png) no-repeat;
+  }
+.slider_menu{
+  width:26px;
+  height:99px;
+  position:absolute;
+  cursor:pointer;
+  top:0;
+  }
+.slider_menuleft{
+  background:url(../img/rotaleft.gif) no-repeat;
+  left:21px;
+  }
+.slider_menuleft:hover{
+  background:url(../img/on_rotaleft.gif) no-repeat;
+  }
+.slider_menuright{
+  background:url(../img/rotaright.gif) no-repeat;
+  right:21px;
+  }
+.slider_menuright:hover{
+  background:url(../img/on_rotaright.gif) no-repeat;
+  }
+.slider_menubar {
+	height: 99px;
+	display: block;
+}

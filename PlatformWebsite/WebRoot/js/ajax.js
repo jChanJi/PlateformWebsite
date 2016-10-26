@@ -1,0 +1,191 @@
+/**
+ * Created by jonas on 2016/9/7.
+ */
+/*中心简介*/
+//中心介绍
+$(document).ready(function(){
+    $("#brief_intro").click(function(){
+        $("#intro_text").load("text/brief_intro");
+        $("#intro_title").text("中心介绍");
+    });
+});
+//中心架构
+$(document).ready(function(){
+    $("#brief_framwork").click(function(){
+        $("#intro_text").load("text/brief_framwork");
+        $("#intro_title").text("中心架构");
+    });
+});
+//中心位置
+$(document).ready(function(){
+    $("#brief_location").click(function(){
+        $("#intro_text").load("text/brief_location");
+        $("#intro_title").text("中心位置");
+    });
+});
+//中心设备
+$(document).ready(function(){
+    $("#brief_equipment").click(function(){
+        $("#intro_text").load("text/brief_equipment");
+        $("#intro_title").text("中心设备情况");
+    });
+});
+
+/*团队介绍*/
+
+//中心团队
+$(document).ready(function(){
+    $("#brief_team").click(function(){
+        $("#team_text").load("text/brief_team");
+        $("#team_title").html("中心团队");
+    });
+});
+//研究方向
+
+$(document).ready(function(){
+    $("#research_direction").click(function(){
+    $("#team_text").load("text/research_direction");
+        $("#team_title").html("研究方向");
+});
+});
+//承担项目
+$(document).ready(function(){
+    $("#undertake_project").click(function(){
+        $("#team_text").load("text/undertake_project");
+        $("#team_title").html("承担项目");
+    });
+});
+/*规章制度*/
+
+//总则
+$(document).ready(function(){
+    $("#rule_over").click(function(){
+        $("#rule_text").load("text/rule_over");
+        $("#rule_title").html("总则");
+    });
+});
+//第一章
+$(document).ready(function(){
+    $("#rule_one").click(function(){
+        $("#rule_text").load("text/rule_one");
+        $("#rule_title").html("第一章：办公秩序");
+    });
+});
+//第二章
+$(document).ready(function(){
+    $("#rule_two").click(function(){
+        $("#rule_text").load("text/rule_two");
+        $("#rule_title").html("第二章:例会制度");
+    });
+});
+//第三章
+$(document).ready(function(){
+    $("#rule_three").click(function(){
+        $("#rule_text").load("text/rule_three");
+        $("#rule_title").html("第三章：值班制度");
+    });
+});
+//第四章
+$(document).ready(function(){
+    $("#rule_four").click(function(){
+        $("#rule_text").load("text/rule_four");
+        $("#rule_title").html("第四章：物资管理制度");
+    });
+});
+
+/*中心新闻*/
+//中心动态
+$("#news_text2").hide();
+$(document).ready(function(){
+  $("#news_changes").click(function(){
+      $("#news_title").text("中心动态");
+      $("#news_text2").hide();
+      $("#news_text1").show();
+  });
+});
+$(document).ready(function(){
+  $("#new_notice").click(function(){
+	   $("#news_title").text("中心公告");
+	  $("#news_text1").hide();
+	  $("#news_text2").show();
+  });
+});
+
+
+/*材料文件*/
+//申报材料
+$("#document_list").hide();
+$(document).ready(function(){
+  $("#declare_material").click(function(){
+	  $("#document_title").text("申报材料");
+	  $("#document_list").hide();
+	  $("#material_list").show();
+  });
+});
+//立项文件
+$(document).ready(function(){
+  $("#project_document").click(function(){
+      $("#document_title").text("立项文件");
+      $("#material_list").hide();
+      $("#document_list").show();
+	 
+  });
+});
+/*成果*/
+$(document).ready(function(){
+    $("#achievement1").click(function(){
+        $("#achievement_title").text("成果1");
+        $("#achievement_text").load("text/achievement1.jsp");
+    });
+});
+$(document).ready(function(){
+    $("#achievement2").click(function(){
+        $("#achievement_title").text("成果2");
+        $("#achievement_text").load("text/achievement2.jsp");
+      
+    });
+});
+$(document).ready(function(){
+    $("#achievement3").click(function(){
+        $("#achievement_title").text("成果3");
+        $("#achievement_text").load("text/achievement3.jsp");
+    });
+});
+$(document).ready(function(){
+    $("#achievement4").click(function(){
+        $("#achievement_title").text("成果4");
+        $("#achievement_text").load("text/achievement4.jsp");
+  
+    });
+});
+
+/*后台文件管理*/
+$("#admin_upload2").hide();
+$(document).ready(function(){
+    $("#admin_declare_material").click(function(){
+        $("#admin_upload2").hide();
+        $("#admin_upload1").show();
+    });
+});
+$(document).ready(function(){
+    $("#admin_project_document").click(function(){
+        $("#admin_upload1").hide();
+        $("#admin_upload2").show();
+    });
+});
+
+/*后台中心新闻*/
+$("#table2").hide();
+$(document).ready(function(){
+    $("#admin_brief_change").click(function(){
+        $("#table2").hide();
+        $("#table1").show();
+    });
+});
+$(document).ready(function(){
+    $("#admin_brief_notice").click(function(){
+        $("#table1").hide();
+        $("#table2").show();
+
+    });
+});

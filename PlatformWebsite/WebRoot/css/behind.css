@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin:0;
+}
+table
+{
+    border-collapse:collapse;
+}
+/*管理员登录界面*/
+.sign_top
+{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    border-bottom: solid 2px #333333;
+    background-image:linear-gradient(to bottom,#1b3041,#243e4f);
+}
+.sign_content
+{
+    position: absolute;
+    top: 52px;
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    background-image:linear-gradient(to bottom,#CCCCCC,#ffffff,#ccc);
+ 
+}
+.sign_center
+{
+    width: 1200px;
+    margin: 0 auto;
+    height: 700px;
+    padding-top:100px;
+
+}
+.sign_center_left
+{
+    float: left;
+    width: 49%;
+    height: 500px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: solid #ffffff 3px;
+
+}
+.sign_center_left img
+{
+    width: 400px;
+    height:100px;
+    padding-top: 200px;
+    vertical-align: middle;
+}
+.sign_center_right
+{
+    font-size: 16pt;
+    float: left;
+    width: 500px;
+    height: 320px;;
+    padding-top: 180px;
+    padding-left: 30px;
+}
+.sign_center_right p
+{
+    width: 100%;
+}
+.admin_name{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.admin_name p
+{
+    width: 100px;
+    display: inline-block;
+    float: left;
+    text-align: right;
+}
+.admin_password
+{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.admin_password p
+{
+    width: 100px;
+    display: inline-block;
+    float: left;
+    text-align: right;
+}
+.admin_button
+{
+    width: 100%;
+}
+.behind_text
+{
+     border: solid 1px black;
+    width: 200px;
+    height: 25px;
+    float: left;
+     display: inline-block;
+    float: left;
+}
+.sign_bottom
+{
+    width: 100%;
+    height: 120px;
+    background-image:linear-gradient(to bottom,#1b3041,#243e4f);
+    color: #ffffff;
+    text-align: center;
+
+}
+.sign_bottom p
+{
+	padding-top:10px;
+}
+/*后台管理界面*/
+.admin_news_head
+{
+    position: absolute;
+    top:0;
+    width: 100%;
+    min-width:1519px;
+    overflow: hidden;
+}
+.admin_news_head p
+{
+    float: left;
+    display: inline-block;
+    font-size: 20pt;
+    padding-left: 30px;
+    color: #ffffff;
+    width: 500px;
+}
+
+.admin_head_1{
+    overflow: hidden;
+    width: 100%;
+    background:#01a5a6;
+}
+.admin_head_1 span
+{
+    float:right;
+    padding: 0 5px 0 0;
+    cursor: pointer;
+    height: 36px;
+    line-height: 36px;
+}
+.admin_inf
+{
+    width: 500px;
+    float: right;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.admin_inf ul
+{
+    width: auto;
+    overflow: hidden;
+}
+
+.admin_inf ul li
+{
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    display:inline-block;
+}
+.admin_inf ul li a {
+    text-decoration: none;
+    color: black;
+}
+.admin_inf ul li a:hover
+{
+    cursor:pointer;
+}
+.admin_list
+{
+    padding: 5px 0;
+    height:auto;
+    overflow: hidden;
+    background:#fff;
+}
+.admin_list ul
+{
+    height: auto;
+    overflow: hidden;
+    width: 500px;
+    padding-left: 30px;
+    background: #ffffff;
+}
+.admin_list ul li {
+    padding:0 17px 3px 0;
+    display: inline-block;
+    float: left;
+}
+.admin_list ul li a
+{
+	text-decoration:none;
+    font-size: 18pt;
+
+}
+.admin_list ul li a:hover
+{
+    cursor:pointer;
+    border-bottom:  solid 3px #cc0033;
+}
+.admin_news_content
+{
+    position: absolute;
+    top: 88px;
+    width: 100%;
+    min-width: 1519px;
+    background: #ffffff;
+}
+.admin_center
+{
+    width:99%;
+    padding:0.5%;
+    height: auto;
+    overflow: hidden;
+}
+.admin_center_left
+{
+    float: left;
+    display: inline-block;
+    width: 250px;
+    height: 600px;
+    background: #32323a;
+}
+
+.admin_center_left ul
+{
+    overflow:hidden;
+}
+
+.admin_center_left ul li
+{
+    padding: 10px 0 6px 60px;
+}
+
+.admin_center_left ul li a
+{
+    color: #ffffff;
+    font-size: 12pt;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.admin_center_right
+{
+    float: left;
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    width:1230px;
+}
+.table
+{
+    width: auto;
+    height: auto;
+    border-collapse:collapse;
+
+}
+
+.table tr th
+{
+    height: 30px;
+    border: solid 1px #999999;
+
+}
+
+.table tr td
+{
+    height: 30px;
+    border: solid 1px #999999;
+    text-align:center;
+    
+}
+.table tr td a
+{
+	text-decoration: none;
+	color:#333333;
+}
+.table tr td a:hover
+{
+    cursor: pointer;
+    border-bottom: solid 1px #cc0033;
+}
+
+
+table button
+{
+    float: right;
+    margin-right: 40px;
+    font-size: 13pt;
+    padding: 4px 6px;
+    border: solid 1px #333333;
+}
+table button:hover
+{
+    background:#01a5a6;
+}
+/*后台文章修改*/
+.modify_content
+{
+    position: absolute;
+    width:100%;
+    top: 36px;
+    height: auto;
+    background: #ccffff;
+}
+.modify_center
+{
+    overflow: hidden;
+    width: 1000px;
+    padding-top: 50px;
+    height: auto;
+    margin:0 auto;
+    background: #ffffff;
+     min-height: 800px;
+}
+.modify_center p
+{
+	  font-size: 14pt;
+}
+.modify_title
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.modify_title p
+{
+    float: left;
+    display: inline-block;
+    font-size: 14pt;
+}
+.modify_title_text
+{
+    float: left;
+    display: inline-block;
+    width: 400px;
+    height: 25px;
+    border:solid 1px #01a5a6;
+    border-radius: 4px;
+    background: #ffffff;
+}
+.modify_text_area
+{
+    width: 100%;
+    height:auto;
+}
+.submit_button
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 30px;
+}
+.modify_text_area p
+{
+    float: left;
+    display: inline-block;
+    font-size: 14pt;
+}
+
+/*后台文件材料*/
+.admin_document_title
+{
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.admin_center_right_content
+{
+    overflow: hidden;
+}
+.admin_document_title p
+{
+    display: inline-block;
+    float: left;
+    font-size: 16pt;
+    width: 100px;
+}
+.document_title_text
+{
+    display: inline-block;
+    float: left;
+    height: 26px;
+    width: 300px;
+    border: solid 1px #000000;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+.document_title_text:focus
+{
+    border: solid 1px #01a5a6;
+}
+.admin_upload_file
+{
+    padding: 5px;
+    overflow: hidden;
+}
+.admin_upload_file p
+{
+    display: inline-block;
+    float: left;
+    font-size: 16pt;
+    width: 100px;
+}
+.file
+{
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    background-image:url(../img/file.PNG);
+    background-size: 80px 30px;
+    border: solid 1px #66ccff;
+    border-radius: 4px;
+}
+.file input
+{
+    float: left;
+    width: 80px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+}
+.admin_view
+{
+    padding: 3px 4px;
+    margin-left: 15px;
+    border: solid 1px #ffffff;
+    border-radius: 4px;
+    background: #6cf;
+    cursor: pointer;
+}
+
+.admin_document_submit
+{
+    margin-top: 20px;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+}
+.admin_document_submit button
+{
+    width: 55px;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 100px;
+    font-family: "Adobe 黑体 Std R";
+    border: solid 1px #ffffff;
+    border-radius: 4px;
+    background: #6cf;
+    cursor: pointer;
+}
